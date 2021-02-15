@@ -6,7 +6,7 @@
 /*   By: rgarcia- <rgarcia-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/29 20:05:10 by rgarcia-          #+#    #+#             */
-/*   Updated: 2020/10/06 19:19:55 by rgarcia-         ###   ########.fr       */
+/*   Updated: 2021/02/15 14:08:04 by rgarcia-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,9 +27,10 @@ int		main(void)
 	int		ret;
 	char	dstcpy[100];
 	char	dstft_cpy[100];
-	char	*aux = "Pruebas Libasm.";
+	char	*aux;
 	char	buffer[4096];
 
+	aux = "Pruebas Libasm";
 	printf("   strlen: <%zu>\n", strlen(aux));
 	printf("ft_strlen: [%zu]\n", ft_strlen(aux));
 	printf("\n");
